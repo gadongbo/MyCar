@@ -1,0 +1,193 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+li {
+    list-style: none;
+}
+.top-bar {
+    position: relative;
+    height: 30px;
+    margin-top: 0px;
+    display: flex;
+   width: 100%;
+    background-color:rgb(85, 83, 83);
+}
+.top-bar i {
+    padding-right: 5px;
+}
+.top-bar ul{
+   margin: auto;
+    display: flex;
+}
+.top-bar ul li{
+    border-right: 1px solid #bbbbbb;
+    
+}
+.top-bar ul li:last-child{
+    border-right:none;
+}
+.top-bar ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0px 10px 0px 10px;
+}
+.menu-top {
+    display: flex;
+}
+
+.menu {
+   
+    display: flex;
+    margin-left: 450px;
+   
+}
+.menu-top .logo img{
+    max-width: 80px;
+    position: absolute;
+    top: 0px;
+   
+}
+.menu ul {
+    margin-right: 10px;
+    display: flex;
+}
+.menu ul li {
+    padding: 10px 10px 0px 10px;
+}
+.menu ul li a {
+    color:rgba(61, 53, 53, 0.799);
+    font-weight: bold;
+}
+.menu ul li a:hover {
+    color: rgb(47, 69, 133);
+}
+h2 {
+    font-weight: bold;
+   text-align: center;
+   margin: 30px 0;
+}
+.registration{
+    
+    background-color:rgb(73, 71, 71);
+    padding-bottom: 50px;
+}
+.registration h2 {
+    padding-top: 30px;
+    color: white;
+}
+.nhap {
+    
+    margin-left: 300px;
+}
+input {
+    border-radius: 3px;
+    border: 1px solid white;
+    width: 180px;
+    margin: 0px 3px;
+    height: 39px;
+    background-color: rgb(73, 70, 70);
+}
+input:focus {
+    color: white;
+}
+
+.nhap > button {
+    border: none;
+    height: 40px;
+    width: 180px;
+    background-color: rgb(226, 65, 65);
+}
+footer {
+    padding-top:40px;
+    display: flex;
+    background-color: black;
+    justify-content:center;
+}
+.logo-footer img{
+    max-width: 150px ;
+}
+.logo-footer li {
+    color: white;
+    margin: 10px 40px 10px 20px;
+    background-color: rgb(226, 65, 65);
+    border-radius: 5px;
+    padding: 2px;
+}
+.logo-footer li * {
+    padding: 5px;
+}
+.logo-footer li i {
+    font-size: 14px;
+}
+.xe-ban-chay {
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 340px;
+}
+h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+.xe-ban-chay a {
+    color: white;
+}
+.address {
+    max-width: 340px;
+}
+
+.address p {
+    color: white;
+}
+/* footer */
+.title h4 {
+    padding: 40px 0px 40px 50px;
+    background-color: #f5f5f5;
+}
+.products .product-row1{
+    display: flex;
+}
+.product{
+    display:block;
+    margin: 20px 40px 30px 40px ;
+
+}
+
+
+.product img:hover{
+    transform: scale(1.1);
+}
+.product img{
+    
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+.product a{
+   font-size: 20px;
+   text-align: center;
+   color: #333;
+}
+.product span{
+    
+    padding: 0 10px
+    
+}
+
+.product .gia {
+    background-color: red;
+}
+.product .sale {
+    background-color: rgb(0, 225, 255);
+}
+.products .product-row2{
+    display: flex;
+}
